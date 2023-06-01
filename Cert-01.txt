@@ -1,0 +1,316 @@
+01 - A cloud deployment of two or more unique clouds is known as:
+A. Infrastructures as a Service
+B. A Private Cloud
+C. A Community Cloud
+D. A Hybrid Cloud
+E. Jericho Cloud Cube Model
+
+02 - ENISA: Which is not one of the five key legal issues common across all scenarios:
+A. Data protection
+B. Professional negligence
+C. Globalization
+D. Intellectual property
+E. Outsourcing services and changes in control
+
+03 - ENISA: An example high risk role for malicious insiders within a Cloud Provider includes
+A. Sales
+B. Marketing
+C. Legal counsel
+D. Auditors
+E. Accounting
+
+04 - What are the primary security responsibilities of the cloud provider in the management infrastructure?
+A. Building and properly configuring a secure network infrastructure
+B. Configuring second factor authentication across the network
+C. Properly configuring the deployment of the virtual network, especially the firewalls
+D. Properly configuring the deployment of the virtual network, except the firewalls
+E. Providing as many API endpoints as possible for custom access and configurations
+
+05 - If there are gaps in network logging data, what can you do?
+A. Nothing. There are simply limitations around the data that can be logged in the cloud.
+B. Ask the cloud provider to open more ports.
+C. You can instrument the technology stack with your own logging.
+D. Ask the cloud provider to close more ports.
+E. Nothing. The cloud provider must make the information available.
+
+06 - CCM: In the CCM tool, a _____________________ is a measure that modifies risk and includes any process, policy, device, practice or any other actions which modify risk.
+A. Risk Impact
+B. Domain
+C. Control Specification
+
+07 - Who is responsible for the security of the physical infrastructure and virtualization platform?
+A. The cloud consumer
+B. The majority is covered by the consumer
+C. It depends on the agreement
+D. The responsibility is split equally
+E. The cloud provider
+
+08 - What factors should you understand about the data specifically due to legal, regulatory, and jurisdictional factors?
+A. The physical location of the data and how it is accessed
+B. The fragmentation and encryption algorithms employed
+C. The language of the data and how it affects the user
+D. The implications of storing complex information on simple storage systems
+E. The actual size of the data and the storage format
+
+09 - Which cloud-based service model enables companies to provide client-based access for partners to databases or applications?
+A. Platform-as-a-service (PaaS)
+B. Desktop-as-a-service (DaaS)
+C. Infrastructure-as-a-service (IaaS)
+D. Identity-as-a-service (IDaaS)
+E. Software-as-a-service (SaaS)
+
+10 - what are the main considerations for key management
+
+11 - six phases of data security lifecycle
+
+12 - which of the following is among the vulnerabilities contributing to a high risk ranking of network management
+A. system or os vulnerabilities
+B. hypervisor vulnerabilities
+C. aaa vulnerabilities
+D. user provisioning vulnerabilities
+E. inadequate physical security procedures
+
+13 - computer virtualization abstracts the running of code, not including the operation system, from the underlying hardware
+True
+False
+
+14 - CCSK: what is more secure and cost effective approach to data security and encryption
+A. deny all and locking everythging down until requirements are meet
+B. apply a data driven approach
+C. apply a risk based approach
+D. apply a blanket security policy to anything cloud
+E. using the same policies applied to the traditional network
+
+15 - what is the most important resason for know where the cloud service provider will host the data?
+A. allow compliance with local law, regarding data privacy and regulations
+B. implement required measures to ensure compliance with local laws an restrict cross boarder flow of data
+C. enable data controler to register with local data protection officers
+D. enable data locations transparency for the consumers
+E. facilitate comprehensive disaster planing
+
+16 - APIs and web services require extensive hardening and must assume attacks from authenticated and unauthenticated adversaries
+True
+False
+
+17 - ccmd: which of the following statement about csa ccm and security guidance is false
+A. csa security guidance tells you WHAT to do, the CCM tell you How to do it
+B. CSA CCM provides a set of control objectives against which an organization should access cloud security
+C. csa ccm tells you what to do, guidance tells you how to do it
+D. csa security guidance provides a set of best practices and recommendations
+
+18 - when deploying security as a service in a highly regulated industry or enviorenment, what should both parties agree on in advance and include in the sla?
+
+19 - In volume storage, what methods is often used to support resilience and security?
+A. DRM
+B. Hypervisor agents
+C. Proxy encryption
+D. Random placement
+E. data dispersion
+
+20 - what is it called when a customer' information and/or processes are compromissed by the action of another customer in a mmulti tenacy enviorenment?
+A. data loss
+B. failure to thrive
+C. relationship failure
+D. isolation failure
+E. information leakage
+
+21 - for cloud consumers to be able to properly configure and manage their network security, what must cloud providers do?
+A. Provide security templates
+B. configure a default deny and enable controls as requested
+C. provide administrator access to the tenant
+D. provide api access
+E. explose securiyt controls
+
+22 - what is resource pooling?
+
+23 - in general, the majority of laws and regulations regarding data in network or cloud enviorenment are designed to be what?
+
+24 - your sla with your cloud provider wnsures continuity for all services
+True
+False
+
+25 - which governance domain focuses on proper and adequate incident detection, response, notification and remediation?
+A. infraestructure security
+B. compliance and audit management
+C. incident response, notification and remediation
+D. Data security and encription
+E. Information governance
+
+26 - cloud applications can use virtual networks and other structures for hyper-segregated eviorenments
+True
+False
+
+27 - What type of information is contained in the Cloud Security Alliances Cloud Control Matrix?
+A. Command and control management hyerarchy of a typical cloud company
+B. list of cloud configurations including traffic logic and effecient routes
+C. Federal legal business requirements for all cloud operators
+D. Network traffic rules for cloud enviorenments
+E. a number of requirements to be implemented based upon numerous standards and regulatory requirements
+
+28 - which SDP component terminates network traffic and enforces communication policies?
+A. Access manager
+B. Gateway
+C. controller
+D. Client
+E. Firewall
+
+29 - when you considereing business continuity and disaster recovery with a cloud provider, which layer of the logical stack includes code and message queues?
+A. Datastructure
+B. Infostructure
+C. Infrastructure
+D. Metastructure
+E. Applistructure
+
+30 - which type of application security testing tests running applications and includes tests such as web vulnerability testing and fuzzing?
+
+31 - Cloud Control Matrix (CCM) is a completely independent cloud assessment toolkit that does not map any existing standartds
+True
+False
+
+32 - which proeminent recommended standard to enable federation of identity in cloud enviorenment include:
+A. SSO
+B. SAML
+C. KerberoS
+D. FIDO
+E. x.509
+
+33 - how should sdlc be modified to address application security in a cloud computer enviorenment?
+A. integrate development enviorenments
+B. Updated threat and trust models
+C. no modification is needed
+D. just in time compilers
+
+34 - What is a potential concern of using security-as-a-service(Secaas)?
+A. Insulation of clients
+B. Intelligence sharing
+C. Scaling and costs
+D. Lack of visibility
+E. Deployment flexibility
+
+35 - which security advantage considers that anything that goes into production is created by the ci/cd pipeline on approved code and configuration templates?
+A. Secdevops/devsecops and rugged devops
+B. immutable
+C. Automated testing
+D. Standarization
+E. Improvement auditing and change management
+
+36 - Isolation failure refers to:
+A. Failure of mechanisms separating storage, memory, routing between diferent tennats
+B. failure to employ appropriate encrypytion standards to VM
+C. inadequate resourse provisioning and investments in infrastructure
+D. Possibility that cloud based assets will be scanned by external hackers
+E. Application vulnerabilities or poor patch management
+
+37 - What are the audit related implication of the outsourced cloud services?
+
+38 - What is a challenge of application security in a cloud enviorenment?
+A. Responsiveness
+B. Non-unified interface
+C. Limited detailed visibility
+D. Decrease application scope
+E. Isolation enviorenments
+
+39 - When attempting to contain, erradicate, and recover from a cloud based incident, what is the first step you should do?
+A. Put the devicde in stand by mode
+B. Terminate all super user/administrative access
+C. Make sure the cloud management plane is free of an attack
+D. Kill all network access
+E. Isolate the infected devices
+
+40 - the software defined perimeter (SDP) include wich components?
+
+41 - in a cloud envioprenment, how can you best determine data/information security risks and potential controls?
+A. Run a search on user data files
+B. encrypt everything
+C. identify the major operatin system
+D. Understand the related regulatory requirements
+E. understand the cloud storage architecture in use
+
+42 - Sending data to a providers storage over an API is likely as much more reliable and secure than setting up your own SFTP server on a VM in the same provider
+True
+False
+
+43 - which component is a key part of software container systems?
+A. Workloads tools
+B. An automate controller
+C. the execution enviorenment
+D. a client
+E. Operation System
+
+44 - an underlying vulnerability related to Loss of Governance is:
+A. Inadequate capacity planning
+B. Hypervisor vulnerabilities
+C. Unclear asset owership
+D. Lack of supplier redundancy
+E. Lack of reputational isolation
+
+45 - without virtualization, there's no cloud
+True
+False
+
+46 - what makes the metastructure layer of cloud computing so different from traditional computing?
+A. It includes the data and information components
+B. It includes the underlying applications services
+C. It is automatically patch and scalable
+D. It includes the management plane components which are network enabled and remotly accessible
+E. It eliminates the need for the inforstructure layer
+
+47 - the scope applicability column in the CCM indicates the applicability of the cloud security control to wich of the following elements?
+A. Physical, networks, computer, storage, application or data
+B. mappings to well know standards and frameworkss
+C. SaaS, PaaS, or IaaS
+D. Service Provider or tenat/consumer
+
+48 - which computing model contains the protocols and mechanisms providing the interface between the infrastructure and other layers?
+A. Overstructure layer
+B. inforstructure layer
+C. metastructure  layer
+D. Infrastructure  layer
+E. Applistructure  layer
+
+49 - a defining set of rules composed of claims and attributes os the entities in a transaction, which is used to determine their level of access to cloud based resource is called what?
+A. Support table
+B. Entry log
+C. Entilement Matrix
+D. Access Log
+E. Validation process
+
+50 - what is true about Software defined network firewalls?
+A. Require the use of static ip address
+B. More difficult to manage
+C. Limited obased on physical topology
+D. not limited based on physical topology
+E. they are policy sets that can only be applied to similar grouped assets
+
+51 - which cloud storage technology would include a content delivery network (cdn), file stored in saas, and caching?
+A. Service
+B. Database
+C. Volume storage
+D. Object storage
+E. Application
+
+52 - Virtual appliances can become bottlenecjs because they cannot fail open and must intercept all traffic.
+True
+False
+
+53 - to increase network isolation, you should use sdn capabilities for multiple networks and cloud accounts or segments
+True
+False
+
+54 - which concept provides the abstraction needed for resource pools?
+A. Applistructure
+B. Hypervisor
+C. Virtualization
+D. Orchestration
+E. Metastructure
+
+55 - which common component of big data is focused on the mechanism used to ingest large volumes of data, oftem of a streaming nature
+A. Distributed information
+B. Distributed processing
+C. Distributed storage
+D. Distributed data collection
+E. Distributed attriction
+
+56 - Recommendation: Use elastic servers when possible and move workloads to new instances
+True
+False
