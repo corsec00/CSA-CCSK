@@ -1,6 +1,3 @@
-Q: 
-A: 
-
 Q: Audits are only used to meed government regulatory requirements
 A: False
 
