@@ -67,7 +67,7 @@ NIST’s publication is generally well accepted, and the Guidance aligns with th
 
 NIST defines cloud computing by describing five essential characteristics, three cloud service models, and four cloud deployment models. They are summarized in visual form in Figure 1 and explained in detail below. 
 
-![NIST Model for Cloud Computing](https://github.com/cloudsecurityalliance/CSA-Guidance/blob/master/Images/1.1.2-1.png?raw=true)
+![NIST Model for Cloud Computing](https://github.com/corsec00/CSA-CCSK/tree/main/Images/1.1.2-1.png?raw=true)
 
 #### 1.1.2.1 Essential Characteristics
 
@@ -108,7 +108,7 @@ Both NIST and ISO/IEC use the same four cloud deployment models. These are how t
 
 Deployment models are defined based on the *cloud consumer*—that is, who uses the cloud. As the diagram below shows, the organization that owns and manages the cloud will vary even within a single deployment model.
 
-![Cloud Computing Deployment Models](https://github.com/cloudsecurityalliance/CSA-Guidance/blob/master/Images/1.1.2.3-1.png?raw=true)
+![Cloud Computing Deployment Models](https://github.com/corsec00/CSA-CCSK/tree/main/Images/1.1.2.3-1.png?raw=true)
 
 ### 1.1.3 Reference and Architecture Models
 
@@ -119,7 +119,7 @@ These days there is a wide range of constantly evolving technological techniques
 
 One way of looking at cloud computing is as a stack where Software as a Service is built on Platform as a Service, which is built on Infrastructure as a Service. This is not representative of all (or even most) real-world deployments, but serves as a useful reference to start the discussion.
 
-![Cloud Reference Architecture](https://github.com/cloudsecurityalliance/CSA-Guidance/blob/master/Images/1.1.3-1.png?raw=true)
+![Cloud Reference Architecture](https://github.com/corsec00/CSA-CCSK/tree/main/Images/1.1.3-1.png?raw=true)
 
 #### 1.1.3.1 Infrastructure as a Service
 
@@ -133,7 +133,7 @@ Thus IaaS consists of a facility, hardware, an abstraction layer, an orchestrati
 
 Here is a simplified architectural example of a compute IaaS platform:
 
-![Simplified IaaS Architecture](https://github.com/cloudsecurityalliance/CSA-Guidance/blob/master/Images/1.1.3.1-1.png?raw=true)
+![Simplified IaaS Architecture](https://github.com/corsec00/CSA-CCSK/tree/main/Images/1.1.3.1-1.png?raw=true)
 
 > This is a very simple diagram showing the compute and storage controllers for orchestration, hypervisors for abstraction, and the relationship between the compute and storage pools. It omits many components, such as the network manager.
 
@@ -155,7 +155,7 @@ Another example is an application deployment platform. That's a place where deve
 
 This simplified architecture diagram shows an application platform (PaaS) running on top of our IaaS architecture:
 
-![Simplified PaaS Architecture](https://github.com/cloudsecurityalliance/CSA-Guidance/blob/master/Images/1.1.3.2-1.png?raw=true)
+![Simplified PaaS Architecture](https://github.com/corsec00/CSA-CCSK/tree/main/Images/1.1.3.2-1.png?raw=true)
 
 PaaS doesn't necessarily need to be built on top of IaaS; there is no reason it cannot be a custom-designed stand-alone architecture. The defining characteristic is that consumers access and manage the platform, not the underlying infrastructure (including cloud infrastructure).
 
@@ -182,7 +182,7 @@ At a high level, both cloud and traditional computing adhere to a logical model 
 * *Infostructure:* The data and information. Content in a database, file storage, etc.
 * *Applistructure:* The applications deployed in the cloud and the underlying application services used to build them. For example, Platform as a Service features like message queues, artificial intelligence analysis, or notification services.
 
-![Cloud Logical Model](https://github.com/cloudsecurityalliance/CSA-Guidance/blob/master/Images/1.1.4-1.png?raw=true)
+![Cloud Logical Model](https://github.com/corsec00/CSA-CCSK/tree/main/Images/1.1.4-1.png?raw=true)
 
 Different security focuses map to the different logical layers. Application security maps to applistructure, data security to infostructure, and infrastructure security to infrastructure. 
 
@@ -210,7 +210,7 @@ At a high level, security responsibility maps to the degree of control any given
 * *Platform as a Service:* The cloud provider is responsible for the security of the platform, while the consumer is responsible for everything they implement on the platform, including how they configure any offered security features. The responsibilities are thus more evenly split. For example, when using a Database as a Service, the provider manages fundamental security, patching, and core configuration, while the cloud consumer is responsible for everything else, including which security features of the database to use, managing accounts, or even authentication methods.
 * *Infrastructure as a Service:* Just like PaaS, the provider is responsible for foundational security, while the cloud consumer is responsible for everything they build on the infrastructure. Unlike PaaS, this places far more responsibility on the client. For example, the IaaS provider will likely monitor their perimeter for attacks, but the consumer is fully responsible for how they define and implement their virtual network security, based on the tools available on the service.
 
-![Cloud Security Responsibilities](https://github.com/cloudsecurityalliance/CSA-Guidance/blob/master/Images/1.2.1-1.png?raw=true)
+![Cloud Security Responsibilities](https://github.com/corsec00/CSA-CCSK/tree/main/Images/1.2.1-1.png?raw=true)
 
 These roles are further complicated when using cloud brokers or other intermediaries and partners. 
 
@@ -256,7 +256,7 @@ The CSA has reviewed and recommends the following models:
 [12]: http://collaborate.nist.gov/twiki-cloud-computing/pub/CloudComputing/CloudSecurity/NIST_Security_Reference_Architecture_2013.05.15_v1.0.pdf
 [13]: http://www.iso.org/iso/home/store/catalogue_ics/catalogue_detail_ics.htm?ics1=35&ics2=040&ics3=&csnumber=43757
 
-![CSA Enterprise Architecture](https://github.com/cloudsecurityalliance/CSA-Guidance/blob/master/Images/1.2.2-1.png?raw=true)
+![CSA Enterprise Architecture](https://github.com/corsec00/CSA-CCSK/tree/main/Images/1.2.2-1.png?raw=true)
 
 Throughout this Guidance we also refer to other domain-specific models.
 
@@ -276,7 +276,7 @@ Since different cloud projects, even on a single provider, will likely leverage 
 
 The key is to identify requirements, design the architecture, and then identify the gaps based on the capabilities of the underlying cloud platform. That's why you need to know the cloud provider and architecture *before* you start translating security requirements into controls.
 
-![Cloud Security Process](https://github.com/cloudsecurityalliance/CSA-Guidance/blob/master/Images/1.2.2.1-1.png?raw=true)
+![Cloud Security Process](https://github.com/corsec00/CSA-CCSK/tree/main/Images/1.2.2.1-1.png?raw=true)
 
 ## 1.3 Areas of Critical Focus
 
