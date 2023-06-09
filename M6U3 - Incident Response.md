@@ -16,23 +16,3 @@ A: IaS templates
 Q: In a postmortem what would be your highest priority to review and remediate if it was a blocker in your incident response?
 A: Communications with the cloud provider
 
-Q: 
-A: 
-
-Q: 
-A: 
-
-Q: 
-A: 
-
-Q: 
-A: 
-
-Q: 
-A: 
-
-Q: 
-A: 
-
-Q: 
-A: 
