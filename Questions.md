@@ -677,7 +677,7 @@ Q: Serveless, used properly, can offer more security benefits than risks
 
 20 - What is it called when a customer's information and/or processes are compromised by the actions of another customer in a multi-tenancy environment?
 <BR>A: isolation failure
-A(L): Information leakage
+<br>A(L): Information leakage
 
 21 - For cloud consumers to be able to properly configure and manage their network security, what must cloud providers do?
 D. provide api access (?)
@@ -705,7 +705,7 @@ D. provide api access (?)
 <BR>A: SAML
 
 33 - How should an SDLC be modified to address application security in a Cloud Computing environment?
-A(L): integrate development enviorenments
+<br>A(L): integrate development enviorenments
 <BR>A: Updated threat and trust models
 
 34 - What is a potential concern of using security-as-a-service(Secaas)?
@@ -721,11 +721,11 @@ A(L): integrate development enviorenments
 <BR>A: Limited detailed visibility
 
 40 - The Software Defined Perimeter (SDP) includes which components?
-A(L): Controller, Initiating Hosts, and Accepting Hosts
+<br>A(L): Controller, Initiating Hosts, and Accepting Hosts
 <BR>A: Client, Controller (for Auth and Autho), Gateway
 
 41 - In a cloud environment, how can you best determine data/information security risks and potential controls?
-A(L): understand the cloud storage architecture in use
+<br>A(L): understand the cloud storage architecture in use
 
 43 - which component is a key part of software container systems? (the execution enviorenment, An orchestration and scheduling controller, repository for the container images or code to execute)
 <BR>A: the execution enviorenment
@@ -758,82 +758,82 @@ A(L): understand the cloud storage architecture in use
 <BR>A: C. apply a risk based approach
 
 37 - What is the audit related implications of the outsourced cloud services?
-A(L): Organizations need to be prepared to share the burden of blame with their outsourced partners
+<br>A(L): Organizations need to be prepared to share the burden of blame with their outsourced partners
 
 39 - When attempting to contain, erradicate, and recover from a cloud based incident, what is the first step you should do?
 <BR>A: Put the device in stand by mode
-A(L): Terminate all super user/administrative access
+<br>A(L): Terminate all super user/administrative access
 
 ### NEW PACK 
 
 In the cloud provider and consumer relationship, which entity manages the virtual or abstracted infrastructure?
-A(L): Only the cloud consumer
+<br>A(L): Only the cloud consumer
 
 Who is responsible for the proper rights management and configuration of exposed controls in the management plane?
-A(L): The cloud consumer
+<br>A(L): The cloud consumer
 
 Cloud provider contract enforceability should be carefully considered in light of
-A(L): Foreign and out of state jurisdictions
+<br>A(L): Foreign and out of state jurisdictions
 
 Which security concept includes the policy, process, and internal controls comprising how an organization is run – including the structures and policies of the leadership and other mechanisms for management?
-A(L): Governance
+<br>A(L): Governance
 
 In which layer is the management plane?
-A(L): Metastructure layer
+<br>A(L): Metastructure layer
 
 Why, in the event that an enterprise seeks a new provider for Security as a Service, must they concern themselves with the problems of translating and transporting existing data and log files in a forensically sound manner?
-A(L): Providers often have proprietary standards for logging and reporting
+<br>A(L): Providers often have proprietary standards for logging and reporting
 
 Which phase of the incident response lifecycle includes creating and validating alerts?
-A(L): Detection & Analysis
+<br>A(L): Detection & Analysis
 
 Which technique uses the management plane to detect various activities, such as file uploads or configuration changes?
-A(L): Event-driven security
+<br>A(L): Event-driven security
 
 If a provider’s infrastructure is not in scope, who is responsible for building compliant applications and services?
-A(L): The customer is responsible for compliant applications and services
+<br>A(L): The customer is responsible for compliant applications and services
 
 Which of the following is NOT a method of object storage encryption?
-A(L): Enterprise digital rights management
+<br>A(L): Enterprise digital rights management
 
 In which deployment model do cloud customers have a reduced ability to govern operations because the cloud provider is responsible for the management and governance of the infrastructure?
 <BR>A: Public Cloud
 
 What is the main data source for detection and analysis of an incident?
-A(L): Logs
+<br>A(L): Logs
 
 What are the components of an encryption system?
-A(L): Data, encryption engine, and key management
+<br>A(L): Data, encryption engine, and key management
 
 What makes single cloud assets less resilient compared with a traditional infrastructure?
-A(L): Greater fragility of virtualized resources
+<br>A(L): Greater fragility of virtualized resources
 
 Which components typically comprise Infrastructure-as-a-Service (IaaS) providers?
 <BR>A: Hardware, APIs, and Core Connectivity & Delivery
 
 Which action is part of the containment phase of the incident response lifecycle?
-A(L): Making considerations for data loss versus service availability
+<br>A(L): Making considerations for data loss versus service availability
 
 What is true of how the management plane is to be secured in the cloud?
-A(L): The cloud provider is responsible for securing the management plane and exposing the required security features, while the cloud consumer is responsible for configuring access to the management plane
+<br>A(L): The cloud provider is responsible for securing the management plane and exposing the required security features, while the cloud consumer is responsible for configuring access to the management plane
 
 Which of the following statements best describes the potential advantages of security as a service?
-A(L): The advantages may include flexible offering of services, greater security domain knowledge and efficiency of SecaaS providers
+<br>A(L): The advantages may include flexible offering of services, greater security domain knowledge and efficiency of SecaaS providers
 
 Which of the following statements best defines the "authentication" component of identity, entitlement, and access management (IdEA).
-A(L): Establishing/asserting the identity to the application
+<br>A(L): Establishing/asserting the identity to the application
 
 What can be implemented to help with account granularity and limit blast radius with IaaS an PaaS?
 <BR>A: Establishing multiple accounts
 
 Which statement best describes the options for PaaS encryption?
-A(L): PaaS is very diverse and may include client/application, database, and proxy encryption as well as other options
+<br>A(L): PaaS is very diverse and may include client/application, database, and proxy encryption as well as other options
 
 Which tool is the primary tool between the cloud provider and consumer that extends governance into business partners and providers?
 <BR>A: Contracts
 
 Which of the following cloud deployment models represents a composition of two or more clouds that remain unique identities but are bound together by standardized or proprietary technology that enables data and application portability?
-A(L): Hybrid Cloud 
+<br>A(L): Hybrid Cloud 
 
 Which statement best describes a data (information) dispersion fragmentation scheme?
 <BR>A: A file is split into fragments; all of the fragments are sent to multiple physical storage repositories.
@@ -842,62 +842,62 @@ Which common component of big data is focused on the mechanisms used to ingest l
 <BR>A: Distributed data collection 
 
 When configuring SDN firewalls, after adding all assets, what is typically the first configuration you must address?
-A(L): Opening connections
+<br>A(L): Opening connections
 
 At a minimum, how often should incident response testing occur?
-A(L): Annually and whenever a significant change occurs
+<br>A(L): Annually and whenever a significant change occurs
 
 In the case of Infrastructure as a Service (IaaS) or Platform as a Service (PaaS) the responsibility to effectively manage the security of the application running in the cloud primarily belongs to who?
-A(L): The cloud consumer's administrators
+<br>A(L): The cloud consumer's administrators
 
 What are the encryption options available for SaaS consumers?
-A(L): Provider-managed and (sometimes) proxy encryption
+<br>A(L): Provider-managed and (sometimes) proxy encryption
 
 You have a business relationship with a cloud provider for all sales management functionality. Through the APIs and SDKs, you have customized the interface and some functionality, but the back end service is done through the cloud provider. In this relationship, which service is completed by the cloud provider?
-A(L): Platform-as-a-service (PaaS)
+<br>A(L): Platform-as-a-service (PaaS)
 
 What is a benefit of application security in a cloud environment?
 Isolated environments
 
 A key element of the "Destroy" phase of the Data Security Lifecycle is:
-A(L): Crypto-Shredding
+<br>A(L): Crypto-Shredding
 
 To what extent does the CSA Guidance document suffice for legal advice in setting up relationships with cloud service providers?
-A(L): The CSA Guidance document provides an overview of selected issues and it is not a substitute for obtaining legal advice. 
+<br>A(L): The CSA Guidance document provides an overview of selected issues and it is not a substitute for obtaining legal advice. 
 
 What are the three valid options for protecting data as it moves to and within the cloud?
 <BR>A: Client/Application Encryption, Link/Network Encryption, Proxy-Based Encryption 
 
 How can you reduce the blast radius if an attacker compromises one system?
-A(L): Configure applications on distinct virtual networks only connecting where needed
+<br>A(L): Configure applications on distinct virtual networks only connecting where needed
 
 What are major factors to building and managing a secure management plane?
-A(L): Perimeter security; customer authentication; internal authentication and credential passing; authorization and entitlements; and logging, monitoring, and alerting
+<br>A(L): Perimeter security; customer authentication; internal authentication and credential passing; authorization and entitlements; and logging, monitoring, and alerting
 
 Which of the following items is one of the major regulatory compliance problems associated with cloud environments?
-A(L): The distributed nature of cloud storage may result in regulated information being sent across geographical boundaries
+<br>A(L): The distributed nature of cloud storage may result in regulated information being sent across geographical boundaries
 
 Which SDP component is used for authentication and authorization?
-A(L): Controller
+<br>A(L): Controller
 
 What are the three main aspects for data security controls?
 <BR>A: Controlling, protecting, and enforcing
 
 Which facet is focused on protecting the management plane components, such as web and API servers, from attacks?
-A(L): Perimeter security
+<br>A(L): Perimeter security
 
 Which type of application security testing should incorporate checks on API calls to the cloud service?
 <BR>A: Static Application Security Testing (SAST)
 
 When associating the functions to an actor, what is used to restrict a list of possible actions dowr to allowed actions?
-A(L): Controls
+<br>A(L): Controls
 
 Why do blind spots occur in a virtualized environment, where network-based security controls may not be able to monitor certain types of traffic?
-A(L): Virtual machines may communicate with each other over a virtual network all on the same host rather than a physical network between servers
-A(L): None of the above
+<br>A(L): Virtual machines may communicate with each other over a virtual network all on the same host rather than a physical network between servers
+<br>A(L): None of the above
 
 The level of attention and scrutiny paid to enterprise risk assessments should be directly related to what?
-A(L): The value of the information at risk
+<br>A(L): The value of the information at risk
 
 What is a core tenant of risk management?
 <BR>A: You can manage, transfer, accept, or avoid risks.
@@ -912,44 +912,44 @@ What is a method used to decouple the network control plane from the data plane?
 <BR>A: Software Defined Networking (SDN)
 
 Which concept is defined as the unique expression of an entity within a given namespace?
-A(L): Identity
+<br>A(L): Identity
 
 How can you monitor and filter data in a virtual network when traffic might not cross the physical network? (Both)
 •	Route traffic to a virtual appliance on the same virtual network
 •	Route traffic to a virtual network monitoring or filtering tool on the same hardware
 
 What best describes the tradeoff of Infrastructure as a Service as compared to other cloud service models?
-A(L): Greater initial costs and greater security features
+<br>A(L): Greater initial costs and greater security features
 
 Which part of the incident response process is greatly complicated by the resource pooling and rapid elasticity of cloud infrastructure?
-A(L): Forensics
+<br>A(L): Forensics
 
 What are the NIST defined essential characteristics of cloud computing?
-A(L): Broad network access, rapid elasticity, measured service, on-demand self-service, and resource pooling
+<br>A(L): Broad network access, rapid elasticity, measured service, on-demand self-service, and resource pooling
 
 What is true of cloud built-in firewalls?
 <BR>A: They typically offer fewer features that newer physical firewalls (SecGuiV4, P.96)
 
 What factor(s), if any, allows for more efficient and effective containment and recovery in a cloud environment than in a non-cloud environment.
-A(L): Virtualization technologies, and the elasticity inherent in cloud computing platforms
+<br>A(L): Virtualization technologies, and the elasticity inherent in cloud computing platforms
 
 Which regulation affects data controllers with business in Japan?
-A(L): Act on the Protection of Personal Information
+<br>A(L): Act on the Protection of Personal Information
 
 The key concern of data backup and recovery schemes is:
-A(L): Data should not be commingled with other customers
+<br>A(L): Data should not be commingled with other customers
 
 If there are gaps in network logging data, what can you do?
 **You can instrument the technology stack with your own logging.
 
 Who is responsible for the security of the physical infrastructure and virtualization platform?
-A(L): The cloud provider
+<br>A(L): The cloud provider
 
 What factors should you understand about the data specifically due to legal, regulatory, and jurisdictional factors?
-A(L): The physical location of the data and how it is accessed
+<br>A(L): The physical location of the data and how it is accessed
 
 Which attack surfaces, if any, does virtualization technology introduce?
-A(L): All of the above
+<br>A(L): All of the above
 
 What is defined as the process by which an opposing party may obtain private documents for use in litigation?
 <BR>A: Discovery
@@ -985,7 +985,7 @@ Which concept is a mapping of an identity, including roles, personas, and attrib
 <BR>A: Entitlement
 
 Select the best definition of 'compliance' from the options below.
-A(L): The awareness and adherence to obligations, including the assessment and prioritization of corrective actions deemed necessary and appropriate.
+<br>A(L): The awareness and adherence to obligations, including the assessment and prioritization of corrective actions deemed necessary and appropriate.
 
 Which of the following is NOT a cloud computing characteristic that impacts incidence response?
 <BR>A: Object-based storage in a private cloud.
@@ -1179,7 +1179,7 @@ How should an SDLC be modified to address application security in a Cloud Comput
 ### CCM 
 
 CCM: What is the role of the Scope Applicability column in the CCM?
-A(L): It maps the existing industry standards to the controls in the domains
+<br>A(L): It maps the existing industry standards to the controls in the domains
 
 06 - CCM: In the CCM tool, a ____________ is a measure that modifies risk and includes any process, policy, device, practice or any other actions which modify risk.
 <BR>A: Control Specification
@@ -1188,31 +1188,31 @@ CCM: In the Identity & Access Management (IAM) domain, what does the number ‘0
 <BR>A: It is the 4th control in the IAM domain
 
 CCM: What security requirements does the Identity and Access Management domain in the CCM address?
-A(L): The requirement to ensure appropriate access to resources and to enable the right individuals to access the right resources at the right times for the right reasons.
+<br>A(L): The requirement to ensure appropriate access to resources and to enable the right individuals to access the right resources at the right times for the right reasons.
 
 CCM: A hypothetical company called "lnfrastructure4Sure" provides Infrastructure as a Service (IaaS) to its clients. A customer wants to review Infrastructure4Sure's hypervisor security implementation measures. Which of the following measures should Infrastructure4Sure implement?
-A(L): Choose a hypervisor with a smaller footprint for a reduced attack surface.
+<br>A(L): Choose a hypervisor with a smaller footprint for a reduced attack surface.
 
 CCM: A hypothetical company called "Security4Sure" provides a cloud based service to share confidential documents. The confidential documents are stored in their servers and are encrypted. How will Security4Sure ensure the protection of client data within their data center?
-A(L): Encrypt the data at rest and put in place appropriate measures for management of encryption keys
+<br>A(L): Encrypt the data at rest and put in place appropriate measures for management of encryption keys
 
 CCM: A hypothetical start-up company called "IT4Sure" provides a cloud based IT management solution. They are growing rapidly and have some security measures in place but the employees are still using their personal mobile devices for storing and communicating company confidential information. So they decide to provide the employees with company mobile devices and implement a Mobile Device Management policy. Two months later, a customer wants to review IT4Sure's mobile device security practices. Which of the following basic protection measures should the client look for in the company's Mobile Device Management policy?
-A(L): All of the above
+<br>A(L): All of the above
 
 CCM: The following list of controls belong to which domain of the CCM? GRM 06 " Policy GRM 07" Policy Enforcement GRM 08 " Policy Impact on Risk Assessments GRM 09 " Policy Reviews GRM 10" Risk Assessments GRM 11 " Risk Management Framework
-A(L): Governance and Risk Management
+<br>A(L): Governance and Risk Management
 
 CCM: A hypothetical company called: 'Health4Sure' is located in the United States and provides cloud based services for tracking patient health. The company is compliant with HIPAA/HITECH Act among other industry standards. Health4Sure decides to assess the overall security of their cloud service against the CCM toolkit so that they will be able to present this document to potential clients. Which of the following approach would be most suitable to assess the overall security posture of Health4Sure's cloud service?
-A(L): The CCM domains are not mapped to HIPAA/HITECH Act. Therefore Health4Sure should assess the security posture of their cloud service against each and every control in the CCM. This approach will allow a thorough assessment of the security posture.
+<br>A(L): The CCM domains are not mapped to HIPAA/HITECH Act. Therefore Health4Sure should assess the security posture of their cloud service against each and every control in the CCM. This approach will allow a thorough assessment of the security posture.
 
 CCM: In the CCM tool, 'Encryption and Key Management' is an example of which of the following?
-A(L): Domain (for CMM < 4)
+<br>A(L): Domain (for CMM < 4)
 
 CCM: Which of the following statement about CSA's CCM and Security Guidance is False?
-A(L): CSA's CCM tells you WHAT to do, the Guidance tells you HOW to do it
+<br>A(L): CSA's CCM tells you WHAT to do, the Guidance tells you HOW to do it
 
 CCM: The Cloud Service Delivery Model Applicability column in the CCM indicates the applicability of the cloud security control to which of the following elements?
-A(L): SaaS, PaaS or IaaS
+<br>A(L): SaaS, PaaS or IaaS
 
 CCM: A hypothetical start-up company called "ABC" provides a cloud based IT management solution. They are growing rapidly and therefore need to put controls in place in order to manage any changes in their production environment. Which of the following Change Control & Configuration Management production environment specific control should they implement in this scenario?
 <BR>A: Policies and procedures shall be established for managing the risks associated with applying changes to business-critical or customer (tenant)-impacting (physical and virtual) applications and system-system interface (API) designs and configurations, infrastructure network and systems components.
@@ -1225,46 +1225,46 @@ CCM: The Architectural Relevance column in the CCM indicates the applicability o
 
 
 ### ENISA
-02 - ENIS<BR>A: Which is not one of the five key legal issues common across all scenarios:
+02 - ENISA -  Which is not one of the five key legal issues common across all scenarios:
 <BR>A: Globalization
 
-03 - ENIS<BR>A: An example high risk role for malicious insiders within a Cloud Provider includes
+03 - ENISA -  An example high risk role for malicious insiders within a Cloud Provider includes
 <BR>A: Auditors
 
-44 - ENIS<BR>A: an underlying vulnerability related to Loss of Governance is:
-A(L): C. Unclear asset owership
+44 - ENISA -  an underlying vulnerability related to Loss of Governance is:
+<br>A(L): C. Unclear asset owership
 
-12 - ENIS<BR>A: Which of the following is among the vulnerabilities contributing to a high risk ranking for Network Management?
+12 - ENISA -  Which of the following is among the vulnerabilities contributing to a high risk ranking for Network Management?
 <BR>A: System or O/S vulnerabilities
 
-ENIS<BR>A: To mitigate credential compromise or theft, cloud provider can implement:
-A(L): Anomaly detection capabilities
+ENISA - To mitigate credential compromise or theft, cloud provider can implement:
+<br>A(L): Anomaly detection capabilities
 
-ENIS<BR>A: As it relates to public cloud computing, in the European Data Protection law, the customer is considered to be the
-A(L): Data controller
+ENISA - As it relates to public cloud computing, in the European Data Protection law, the customer is considered to be the
+<br>A(L): Data controller
 
-ENIS<BR>A: In Infrastructure as a Service (IaaS), who is responsible for guest systems monitoring?
-A(L): Customer
+ENISA - In Infrastructure as a Service (IaaS), who is responsible for guest systems monitoring?
+<br>A(L): Customer
 
-ENIS<BR>A: Because it is practically impossible to process data in encrypted form, customers should have the following expectation of cloud providers:
+ENISA - Because it is practically impossible to process data in encrypted form, customers should have the following expectation of cloud providers:
 <BR>A: Provider should always manage customer encryption keys with hardware security module (HSM) storage
 
-ENIS<BR>A: A key area of controls for cloud provider network architecture is
-A(L): Distributed Denial of Service mitigation
+ENISA - A key area of controls for cloud provider network architecture is
+<br>A(L): Distributed Denial of Service mitigation
 
-ENIS<BR>A: Which is a potential security benefit of cloud computing?
+ENISA - Which is a potential security benefit of cloud computing?
 <BR>A: More efficient and timely system updates
 
-ENIS<BR>A: Licensing Risks refer to:
+ENISA - Licensing Risks refer to:
 <BR>A: A traditional software licensing scheme may lead to high costs or lack of compliance in cloud systems
 
-ENIS<BR>A: 'VM hopping' is:
+ENISA - 'VM hopping' is:
 <BR>A: Using a compromised VM to exploit a hypervisor, used to take control of other VMs.
 
-ENIS<BR>A: Lock-in is ranked as a high risk in ENISA research, a key underlying vulnerability causing lock in is:
+ENISA - Lock-in is ranked as a high risk in ENISA research, a key underlying vulnerability causing lock in is:
 <BR>A: Lack of completeness and transparency in terms of use
 
-ENIS<BR>A: A reason for risk concerns of a cloud provider being acquired is:
+ENISA - A reason for risk concerns of a cloud provider being acquired is:
 <BR>A: Non-binding agreements put at risk
 
 
@@ -1301,64 +1301,64 @@ The hub and spoke architecture uses internal identity providers or sources conne
 <BR>A: False (Guide, 12.1.2, pg 136)
 
 Cloud storage will most often utilize the same types of data storage used in traditional data storage technologies.
-A(L): False (11.1.2)
+<br>A(L): False (11.1.2)
 
 While the cloud consumer is responsible for implementing the security controls, the cloud provider implements the security of the workload.
-A(L): True
+<br>A(L): True
 
 Immutable workloads make it faster to roll out updated versions because applications must be designed to handle individual nodes going down.
-A(L): True
+<br>A(L): True
 
 Installing security software designed for physical servers onto a virtualized server can result in severe degradation in performance.
-A(L): True
+<br>A(L): True
 
 To increase network isolation, you should use SDN capabilities for multiple networks and cloud accounts or segments.
-A(L): True
+<br>A(L): True
 
 Identified issues, risks, and recommended remediations are included when determining compliance.
-A(L): True
+<br>A(L): True
 
 When the application components communicate directly with the cloud service, the management plane and metastructure might fall within the application security scope.
-A(L): True
+<br>A(L): True
 
 Absent other evidence, such as tampering or hacking, documents should not be considered more or less admissible or credible because they were created or stored in the cloud.
-A(L): True
+<br>A(L): True
 
 While a virtual machine is a full abstraction of an operating system, a container is a constrained place to run segregated processes while still using the kernel and other OS capabilities.
-A(L): True
+<br>A(L): True
 
 Generally speaking, in the United States, a party is obligated to take reasonable steps to prevent the destruction or modification of data in its possession that it reasonably should know, is relevant to an anticipated litigation or government investigation.
-A(L): True
+<br>A(L): True
 
 All cloud services utilize virtualization technologies.
-A(L): True
+<br>A(L): True
 
 Big data includes high volume, high variety, and high velocity.
-A(L): True
+<br>A(L): True
 
 APIs and web services require extensive hardening and must assume attacks from authenticated and unauthenticated adversaries.
-A(L): True
+<br>A(L): True
 
 Cloud applications can use virtual networks and other structures, for hyper-segregated environments.
-A(L): True
+<br>A(L): True
 
 Your cloud and on-premises infrastructures should always use the same network address ranges.
-A(L): False
+<br>A(L): False
 
 REST APIs are the standard for web-based services because they run over HTTPS and work well across diverse environments.
-A(L): True
+<br>A(L): True
 
 Use elastic servers when possible and move workloads to new instances.
-A(L): False
+<br>A(L): False
 
 Network logs from cloud providers are typically flow records, not full packet captures.
-A(L): True
+<br>A(L): True
 
 Dynamic Application Security Testing (DAST) might be limited or require pre-testing permission from the provider.
 <BR>A: True
 
 Your SLA with your cloud provider ensures continuity for all services.
-A(L): False
+<br>A(L): False
 
 A security failure at the root network of a cloud provider will not compromise the security of all customers because of multitenancy configuration.
 <BR>A: False
@@ -1388,17 +1388,17 @@ All assets require the same continuity in the cloud.
 <BR>A: False
 
 Any given processor and memory will nearly always be running multiple workloads, often from different tenants.
-A(L): True
+<br>A(L): True
 
 Even with immutable infrastructures, the production environment, should be actively monitored for changes and deviations from approved baselines.
-A(L): True
+<br>A(L): True
 
 31 - Cloud Control Matrix (CCM) is a completely independent cloud assessment toolkit that does not map any existing standards
-A(L): False
+<br>A(L): False
 
 ### Unaswered
 
 23 - in general, the majority of laws and regulations regarding data in network or cloud environment are designed to be what?
-A(L): Designed to ensure data privacy, security, and complianceand to protect the confidentiality, integrity, and availability of data, as well as to establish guidelines for data handling, storage, transfer, and disclosure. They often address issues such as data protection, data breach notification, consent requirements, cross-border data transfers, industry-specific regulations, and compliance 
+<br>A(L): Designed to ensure data privacy, security, and complianceand to protect the confidentiality, integrity, and availability of data, as well as to establish guidelines for data handling, storage, transfer, and disclosure. They often address issues such as data protection, data breach notification, consent requirements, cross-border data transfers, industry-specific regulations, and compliance 
 
 
