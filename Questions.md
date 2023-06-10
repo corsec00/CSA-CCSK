@@ -1,41 +1,140 @@
+### M1 - Cloud Architecture
+
+### M1U2 -  Introduction & Cloud Architecture
+Q: Which technology is gererally require to build a resource pools?
+A: Virtualization
+
+Q: What is the key difference between traditional virtualization and cloud?
+A: Orchestration
+
+Q: Which of the following is *not* a key potential benefit of cloud computing?
+A: Compliance
+Resiliency
+Agility
+
+Q: What benefit(s) was Amazon attempting to realize when they create their internal cloud computing program? 
+A: Faster time to deploy developer resources | Better match real-time capacity to fluctuating demand
+
+Q: Resource Pools permanentely assign resource to the user
+A: False
+
+Q: Cloud computingsupports scalling up of required resources, but not scaling down
+A: False
+
+Q: Which of the following appear in both NIST and ISO/IEC cloud computing definitions?
+A: (all)
+
+### M1U3 - Cloud Essential Characteristics
+
+Q: Click and drag the correct NIST model element to appropriate category level
+A: (Essential) Broad Network Access | (Service) PaaS | (Depolyment) Private
+
+Q: Services Scaling ou and scale in in quickly are an example of which essensial caharacteristic of cloud
+A: Rapid Elasticity
+
+Q: Click and Drag the essential characteristics to the box below
+A: Broad Network access | Measured Service | On-Demand self-Service | Rapid elasticity | R Pooling
+
+Q: Which of the following is not an emergency property of resource pooling?
+A: Broad network access
+
+### M1U4 - Cloud Service Models
+
+Q: Which service model would a cloud database be considered?
+A: Platform as a Service
+
+Q: Software as a Service is always build on top of Platform as a Service which is always build on Infrastructure as a Servce
+A: FALSE
+
+Q: Which of the following is most likely to be considered IaaS?
+A: A Virtual Machine
+
+Q: In IaaS, Individual virtual machines use which kind of storage?
+A: Virtual volumes from a storage pool
+
+Q: Platform as a Service abstracts application platform and platform components for underlying resources, and can be build on top os IaaS.
+A: TRUE
+
+Q: Which of the following is not required to be considered SaaS?
+A: Customer management of the underlying resources
+
+Q: Drag the labels to indicate which of the SaaS components are build on IaaS
+A: The Web Server Auto Scale Group | Application Server Auto Scale Group  
+
+### M1U5 - Cloud Deployment Models
+
+Q: If an organization uses a community cloud deployment model, some portion of the physical infrastructure of the physical infrastructure must be on-premises with one of the comunity members.
+A: FALSE
+
+Q: if an organization employs the technique of cloud bursting, which cloud deployment model are they utilizing?
+A: Hybrid
+
+Q: Which element of the logical model describes the cloud management plane?
+A: Metastructure
+
+Q: Click and drag the accessible and Comsumed by itens on the left to complete the column
+A: Untrusted | Trusted | Trusted & Untrusted
+
+### M1U6 - Shared Responsibilities
+
+Q: In which service model does the cloud consumer have the least amount of control over security?
+A: Software as a Service
+
+Q: In which cloud service model is the cloud consumer responsible for ensuring that hypervisor is not vulnerable to attack
+A: None of the above
+
+Q: When should you define the security controls when building a cloud deployment?
+A: After identify control gaps
+
+Q: Click and drag the itens to the correct category
+A: Consumer: (Host/Server Security) | (Network, IAM, and Metastructure Configuration Security) | (Data and Application Security)
+Provider: (Physical Infrastructure) | (Virtualizat ion/Abstraction) | (Applicat ion and PaaS Services)
+
 ## M2 Infrastructure Security for Cloud
+
+### M2U2 - Intro to Infrastructure Security for Cloud Computing
+
+Q: Cloud infrastructure security does not include the virtualization components
+A: FALSE
+
+Q: Which the folowing resources pools is not associate with IaaS?
+A: Middleware
+
+Q: Click on the component that the cloud consumer is primarily responsible for securing
+A: Management & Orchestration --> VM
+
+Q: Which of the following are typically in the underlying infrastructure of a cloud?
+A: All options
+
+Q: Why is hardening infrastructure components so important?
+A: Cloud are sometimes based on common components that may contain vulnerabilities
+
+
 ### M2U3 - Software Defined Networks
 
 Q: which of the following physical networks is used for internet to instance traffic?
-
 A: Service
 
-
 Q: Why should cloud providers use multiple underlying physical networks 
-
 A: better isolation | better performance
 
-
 Q: Which virtual network technology is best suited for cloud?
-
 A: SDN
 
-
 Q: Virtual Networks:
-
 A: May include inherent security capabilities
 
-
 Q: Which is a defining characteristic of Software defined Networks
-
 A: Decouples the control plane from the underlying physical network
 
-
 Q: Which SDN Security capability oftem replaces the need for a physical or virtual appliance?
-
 A: Security Groups
 
-
 Q: The most effective way from an attacker to compromise a security group is to compromise the host/virtual machine and them modify the rules
-
 A: False
 
 ### M2U4 - Cloud Network Security
+
 Q: Which of the following is most effective security barrier to contain blast radius?
 A: cloud account/project/subscription
 
@@ -55,6 +154,7 @@ Q: Of the following, which is the most important use case for the Software Defin
 A: To improve and secure remote access
 
 ### M2U5 - Security Compute Workloads
+
 Q: Which of the following are cloud workloads?
 A: Virtual Machines | Finctions Serveless | Containers
 
@@ -74,6 +174,7 @@ Q: Which of the following is primarily a cloud consumer workload security respon
 A: Monitoring and logging
 
 ### M2U6 - Management Plane Security
+
 Q: Why is management plane security is so critical?
 A: Compromise of the management plane potentially compromises all cloud assets
 
@@ -96,6 +197,7 @@ Q: Select the best option for management plane monitoring, when it is available:
 A: Inherent cloud audit, since it captures the most activity
 
 ### M2U7 BC DR
+
 Q: What is the single most important rule for cloud BC/DR?
 A: Architect for failure
 
@@ -111,6 +213,7 @@ A: Cross location/Region Design
 ## M3 - Managing Cloud Security and Risk
 
 ### M3U2 - Governence
+
 Q: Select the governance tool that is most affected by the transaction to cloud computing
 A: Compliance reporting
 
@@ -124,6 +227,7 @@ Q: Select the layer where you evaluate your providers in the diagram
 A: Supplier Assessment
 
 ### M3U3 - Managing Cloud Security Risk
+
 Q: What is the responsabilitry of Information risk manahement?
 A: Align ris management to the tolerance of the data owner
 
@@ -144,7 +248,9 @@ A: Accounting for the context of the information assets involved
 
 Q: How can you manage risk if you can't negotiate a contract with the cloud provider?
 A: Use compensating controls and your own risk mitigations mechanisms
+
 ### M3U4 - Compliance
+
 Q: Audits are only used to meed government regulatory requirements
 A: False
 
@@ -156,7 +262,9 @@ A: Internal audits
 
 Q: Compliance inheritance means that an application built on top of a cloud provider's service that is compliant with a regulation/standard is always guaranteed to be compliance
 A: False
+
 ### M3U5 - Legal Considerations for Cloud
+
 Q: Cloud Security Alliance Security Guidance provides
 A: Information you should discuss with your attorneys
 
@@ -192,7 +300,9 @@ A: Prevent a breach of security
 
 Q: if you own the data, it is still possible for your CSP to own the metadata
 A: TRUE
+
 ### M3U6 - Audit
+
 Q: Why do cloud providers typically limit their customers ability to directly assess and inspect their facilities and services?
 A: On-site inspections can be a security risk, and remote assessments are hard to distinguish from real attacks
 
@@ -204,7 +314,9 @@ A: Change Management details | Log Files | System configuration details | Activi
 
 Q: Should you review or access the audits of a cloud provider more or less frequently than traditional outsourcers?
 A: More
+
 ### M3U7 - CSA Tools
+
 Q: Which CSA tool maps cloud security control specifications to architectural relevance?
 A: Cloud Control Matrix
 
@@ -224,7 +336,9 @@ Q: The CSA Cloud Control Matrix x3.0.1 contains how many control specifications?
 A: 133
 
 ## M4 - Data Security For Cloud
+
 ### M4U2 - Cloud Data Storage & Data Moving to the Cloud
+
 Q: All cloud data is eventually stored on a physical device, like a hard drive
 A: TRUE
 
@@ -241,6 +355,7 @@ Q: Which of the available CASB modes is most cloud-native but often not supporte
 A: API
 
 ### M4U3 - Securing Data in the Cloud
+
 Q: How does cloud complicate access controls as compared to traditional data storage?
 A: Cloud storage may offer more options, sucha as sharing privileges or access to the data''s metadata
 
@@ -254,6 +369,7 @@ Q: In the entitlement matrix below, select which entitlement allows user to view
 A: Volume Describe 
 
 ### M4U4 - Encryption for IaaS
+
 Q: Click on the layer on the stack where encryption is best for protecting discrete data throughout the layers, but may be more complex and is less effective for bulk data
 A: Application
 
@@ -270,6 +386,7 @@ Q: Which of the following options encrypts data before you transfer it to object
 A: Client side encryption
 
 ### M4U5 - Encryption for Paas & SaaS
+
 Q: Select all *potential* options for encryption data in PaaS, if they are supported by the platform
 A: Application-level (in your own code) | Provider-Integrated | Database
 
@@ -283,6 +400,7 @@ Q: Proxy-Encryption requires you to break any existing secure connection to your
 A: True
 
 ### M4U6 - Encryption Key Manegement
+
 Q: Which is the most inherently secure key manegement option, but it may not be viable or even needed depending on your project requirements an platform/provider support?
 A: HSM/Appliance
 
@@ -296,6 +414,7 @@ Q: Which option aloows you to use an existing build for keys management without 
 A: Hybrid
 
 ### M4U7 - Other Data Security Options
+
 Q: in the diagram below, what area shows the greatest reduction in attack surface
 A: Network attack paths
 
@@ -309,6 +428,7 @@ Q: Logs os some events in a cloud environment may not be available to you depend
 A: True.
 
 ### M4U8 - The Data Security Lifecycle
+
 Q: How should the data lifecycle be used?
 A: as a lightweight tool to better understand data flow and potential vs desired data usage
 
@@ -327,6 +447,7 @@ A: Security controls
 ## M5 - Securing Cloud Applications, Users and Related Technologies
 
 ### M5U2 - Secure Software Development Life Cycle
+
 Q: When moving to cloud, what now becomes within the scope of appication security unlike traditional infrastructure?
 A: Management Plane
 
@@ -340,6 +461,7 @@ Q: What is one example of a control that can reduce the potential of Spoofing?
 A: Authentication.
 
 ### M5U3 - SSDLC Testing & Assessment
+
 Q: Specific testing techniques are tightly aligned and should be performed during their designed phase in the secure software development process
 A: FALSE
 
@@ -354,6 +476,7 @@ Q: Which vulnerability analysis option will always comply with the terms of serv
 A: Host-Based
 
 ### M5U4 - DevOps
+
 Q: While there are many definitions of DevOps, one technology/process is typically considered to be central to any devops program. Which tecnology is that?
 A: Continuous Integration
 
@@ -367,6 +490,7 @@ Q: Which of the following are security benefits of DevOps?
 A: Greater Standarization | Automated Testing | Improved Security Operations | Improved Auditing.
 
 ### M5U5 - Secure Operations
+
 Q: Which of the following is not a new concern of secure operations for applications in the cloud?
 A: SAST
 
@@ -378,7 +502,9 @@ A: Some attack surface is the responsability of the cloud provider in the shared
 
 Q: Many of the new architecture options for cloud offer security benefits over what is possible in traditional infrastructure
 A: TRUE
+
 ### M5U6 - Identity & Access Management Definitions
+
 Q: What could an email address be considered?
 A: Identity
 
@@ -392,6 +518,7 @@ Q: Which of the following is a discrete type that will have an identity? Example
 A: Entity
 
 ### M5U7 - IAM Standards
+
 Q: What is the biggest difference between IAM in Cloud and in traditional environments?
 A: IAM Must span at least two organizational boundaries
 
@@ -405,6 +532,7 @@ Q: In the OpenID exchange below, click on the element that represents the enterp
 A: Identity Provider
 
 ### M5U8 - IAM in Practice
+
 Q: In a hub spoke model, which technology mediates between directory server/identity providers and the service providers/relying parties?
 A: Federated Identity Brokers
 
@@ -419,9 +547,11 @@ A: Attribute based access controls
 
 Q: What is an entitlement matrix used for?
 A: To document authorizations
+
 ## M6 - Cloud Security Operations
 
 ### M6U2 - Selecting a Cloud Provider
+
 Q: Why are elasticity and infrasstructure templating critical IaaS security capabilities?
 A: They enable immutable deploynments
 
@@ -435,6 +565,7 @@ Q: Frequent audits and assessments are important when looking at a cloud provide
 A: TRUE
 
 ### M6U3 - Incident Response
+
 Q: If an attacker compromises one of your virtual machine, and then uses it to attack other clients on the same cloud platform, what is the cloud provider's likely action?
 A: The CSP will first protect the rest of their broader clients, which may mean disrupting your deployment
 
@@ -454,6 +585,7 @@ Q: In a postmortem what would be your highest priority to review and remediate i
 A: Communications with the cloud provider
 
 ### M6U4 - SECaaS Fundamentals
+
 Q: Security as a Service is only used to secure cloud services
 A: FALSE
 
@@ -470,6 +602,7 @@ Q: Using SECaaS removes accountability for the client, but only for the particul
 A: FALSE
 
 ### M6U5 - SECaaS Categories & Recomendations
+
 Q: What characteristics would make a Federated Identity Broker be considered SECaaS a traditional tool?
 A: It is hosted in the cloud, elastic and you pay per use
 It brokeres authentication to cloud services
