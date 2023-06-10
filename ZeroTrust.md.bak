@@ -1,0 +1,129 @@
+# Zero Trust
+
+### 1 Introduction to Zero Trust Architecture
+
+Q: Which organization first implement Zero Trust for its employees?
+A: Google
+
+Q: Google BeyondCorp model and approach initially revolved around which of the following ideas/premisses?
+A: Due to expanding permieter, traditional permieter-based security was no longer sufficient to protect against cyber threats
+
+Q: The eraly concept of ZT was based on which of the following models/approaches?
+A: A data-centric network design leveraging micro-segmentation
+An identity centric approach (no - see data-centric)
+
+Q: Which of the following is NOT a cause of increased IT Complexity addessed by ZTA?
+A: The adoption of IA/ML
+
+Q: Per its model of creating virtual enclaves and granting access to resources inside those enclaves, which of the following best describes the ZT concept?
+A: enables de design of architectures from the inside ou, versus outside in. 
+
+### 2 Definitions, Concepts & Components of ZT
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
+Q: 
+A: 
+
