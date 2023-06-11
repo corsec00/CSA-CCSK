@@ -1175,6 +1175,32 @@ What is a potential concern of using Security-as-a-Service (SecaaS)?
 How should an SDLC be modified to address application security in a Cloud Computing environment?
 <BR>A: Updated threat and trust models
 
+Which process is used to break up data and storage the information on multiple copies on different physical storage for high durability
+<br>A: Data Dispersion
+
+What are the most commonly seen networks isolated to distinct hardware because of no overlapping traffic or function?
+<br>A: Management, Service, Storage
+
+what is a benefit of application security in cloud environment?
+<br>A: Isolated environments
+
+The cloud consumer has more tactical responsability for implementing and managing security controls in which cloud service model?
+<br>A: Infrastructure as a service
+
+Which action is part of preparation phase of the incident response lifecycle?
+<br>A: Evaluating infrastructure by proactive scanning and network monitoring, vulnerability assessments, and performing risk assessments.
+
+What must the monitoring scope cover in addition to the deployment assets?
+<br>A: management plane
+
+Which term describes any situation where the cloud consumer does not manage any of the underlying hardware or virtual machines?
+<br>A: Serverless computing
+
+Which of the following is NOT a phase in the Data Security Lifecycle?
+<br>A: Update
+
+How should an SDLC be modified to address application security in a cloud computing environment?
+<br>A: Update threat models
 
 ### CCM 
 
@@ -1223,6 +1249,9 @@ CCM: A company wants to use the IaaS offering of some CSP. Which of the followin
 CCM: The Architectural Relevance column in the CCM indicates the applicability of the cloud security control to which of the following elements?
 <BR>A: Physical, Network, Compute, Storage, Application or Data
 
+CCM: Which of the following statements about CCMv3.0.1 is NOT true?
+<br>A: The CCM outlines who is responsible for the implementation of security controls and whether or not a givencontrol has relevance for a corporate governance
+
 
 ### ENISA
 02 - ENISA -  Which is not one of the five key legal issues common across all scenarios:
@@ -1267,6 +1296,8 @@ ENISA - Lock-in is ranked as a high risk in ENISA research, a key underlying vul
 ENISA - A reason for risk concerns of a cloud provider being acquired is:
 <BR>A: Non-binding agreements put at risk
 
+ENISA - An example of a user provisioning vulnerability is:
+<br>A: Credentials are vulnerable to interception and reply
 
 ### True or False
 
@@ -1396,9 +1427,16 @@ Even with immutable infrastructures, the production environment, should be activ
 31 - Cloud Control Matrix (CCM) is a completely independent cloud assessment toolkit that does not map any existing standards
 <br>A(L): False
 
+Regardless of the technology platform, container security does not include securing the tasks or code running inside the container
+<br>A: False
+
 ### Unaswered
 
 23 - in general, the majority of laws and regulations regarding data in network or cloud environment are designed to be what?
 <br>A(L): Designed to ensure data privacy, security, and complianceand to protect the confidentiality, integrity, and availability of data, as well as to establish guidelines for data handling, storage, transfer, and disclosure. They often address issues such as data protection, data breach notification, consent requirements, cross-border data transfers, industry-specific regulations, and compliance 
 
+What is it called when a customer's information and/or process are compromissed by the actions of another customer in multi-tenancy environment?
+
+
+When it cames to securing the management plane, how are access, identification, authentication and authorizations implemented?
 
