@@ -34,80 +34,94 @@ Q: Which of the following is not a core component of ZTA?
 A: Policy
 
 ### 3 Objectives of Zero  Trust
-Q: 
-A: 
+Q: Which of the following is a business objective of a ZTA?
+A: Risk Reduction
 
-Q: 
-A: 
+Q: Which of the following is a technical objective of ZTA?
+A: Improve security posture and resilience
 
-Q: 
-A: 
+Q: ZT improves the security posture and resilience of an organization's IT environment by ensuring that source scanning and mapping activities initioated by internal or external actors:
+A: Are only allowed within the ZT implementation by authenticated, authorizated entities
 
-Q: 
-A: 
+Q: Security approaches and frameworks based on physical objects and systems, as well as signature-based threat detection, are no longer pratical due to the
+A: Increased frequency and scale of cyber attacks, virtualized enviorenments, and software-based organizations
 
-Q: 
-A: 
+Q: Which of the following is NOT a technical objective of organizations looking to implement ZT?
+A: Compliance management
 
-Q: 
-A: 
+### 4 Benefits of Zero Trust
 
-Q: 
-A: 
+Q: Which of the following describes a ZTA benefit that improves visibility into user activities and related analytics?
+A: Granular logging and monitoring
 
-Q: 
-A: 
+Q: ZTA improves the capacity to restrict lateral movement by hackers through the implementation of with of the following technologies?
+A: Micro-segmentation
 
-Q: 
-A: 
+Q: What ZTA implementation beneficts are realized when leveraging the concept of resource hiding, where resources are only visible to authenticated, authorized user?
+A: Reduce attack surface and radius of impact
 
-Q: 
-A: 
+Q: Which of the following is NOT a ZTA benefit related to visibility and analytics-related improvements?
+A: Data masking and obfuscation
 
-Q: 
-A: 
+Q: Which of the following is not a benefit of ZTA?
+A: Increase trustworthhiness in logging and monitoring
 
-Q: 
-A: 
+### 5 Planning Considerations Zero Trust
 
-Q: 
-A: 
+Q: Which of the following is a factor to take into consideration when implementing ZTAs approaches and design principles?
+A: The complexity of service architecture and data flows
 
-Q: 
-A: 
+Board and executive-level mandatess regarding the implementation of ZTA
+The organizations track records in terms of data breaches and security compromisses
+(NO) The maturity level of the organization's IT and security department/personnel
 
-Q: 
-A: 
+Q: In the event of a PEP or PDP failure in a ZTA, which of the following is the most relevant risk for mitigation
+A: Implementation risk of hindering users and affected applications from authentication/operating properly
 
-Q: 
-A: 
+Q: Which of the following is a main pillar in CISAs ZT Maturity model?
+A: Application Workload
 
-Q: 
-A: 
+Q: Which of the following is NOT a factor to consider when implementing ZTA inb a organization?
+A: Trust based approach
 
-Q: 
-A: 
+Q: Which of the following steps in ZTA organizational and technical planning involves determining the maturity level of the organizations's internal approaches and process?
+A: Define current state
 
-Q: 
-A: 
+### 6 ZTA Implementation Examples
 
-Q: 
-A: 
+Q: Which of the following specifies the use of an access proxy for all access attempts and comunications?
+A: BeyondCorp
 
-Q: 
-A: 
+Q: Which of the following implementation models relies heavily on single packcet authorization (SPA)?
+A: SDP
 
-Q: 
-A: 
+Q: Which of the following is NOT true of ZTNA
+A: It is ideal for protectiong unmanagement devices
 
-Q: 
-A: 
+Q: SDP maturity level and widespread adoption can be partially attributed to which one of the following?
+A: Regular hackathons that test SDP's attack durability continue to add to its popularity
 
-Q: 
-A: 
+Q: An organization wishes to deploy ZTA in its multiple cloud environment. iot hosts its own local networ model is ideal for this scenario?
+A: Service Initiated (cloud-to-cloud)
 
-Q: 
+### 7 ZTA Use cases
+
+Q: Wihch of the following is an improved ZTA mitigation from malicious attackers compared to network micro-segmentation?
+A: Lateral movement is limited since devices are hidden from unkown or unauthorized users
+
+Q: Which one of the following ZXTA features inmproves secure remote access when compared to a VPN?
 A: 
+(NO) Greater scalability and resiliency is achieved through ZT gateways and controllers
+(NO) Authentication is required prior to the connection getting established
+
+Q: Which of the following are ZTA features that improve remote users access compare to a vpn?
+A: Fine grained security through a ZT gateway for each service or application
+
+Q: Which of the following are true about traditional remote access VPNs but not ZTA?
+A: Users can access all organization assets after authentication
+
+Q: Which one of the bellow is not an example of Industrial IOT (IIOT)?
+A: Smart cars
 
 Q: 
 A: 
